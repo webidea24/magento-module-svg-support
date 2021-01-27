@@ -1,0 +1,16 @@
+{
+    "name": "webidea/magento2-module-svg-support",
+    "description": "Magento 2 Module - Enable SVG support",
+    "license": [
+        "MIT"
+    ],
+    "type": "magento2-module",
+    "autoload": {
+        "files": [
+            "registration.php"
+        ],
+        "psr-4": {
+            "Webidea24\\SvgSupport\\": ""
+        }
+    }
+}
